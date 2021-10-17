@@ -1,5 +1,5 @@
 .PHONY: clean
-CFLAGS=-w
+CFLAGS=-Wall -Werror -pedantic
 CC=gcc
 
 hello: hello.c
